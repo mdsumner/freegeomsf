@@ -73,6 +73,9 @@ protection and management scenarios.
 The idea was originally noted here:
 <https://gist.github.com/mdsumner/7b354f73b47ccb67861ff0363cdbb3d3>
 
+In other aspirations this might become a set of helpers for shift,
+scale, rotate for geometries that aren’t just one format.
+
 ## Code of Conduct
 
 Please note that the freegeomsf project is released with a [Contributor
