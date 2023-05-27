@@ -19,7 +19,8 @@ etc).
 You can install the development version of freegeomsf like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")
+pak::pak("mdsumner/freegeomsf")
 ```
 
 ## Example
@@ -60,6 +61,17 @@ we can’t.
 (We could of course decompose the data and use geom_polygon, but there’s
 a lot of details to worry about and this was easier just to get on with
 the work required).
+
+## Motivation
+
+This was motivated by the need for a simple plot requirement so we could
+see the relationship between polygons in detail. Sometimes you can’t
+tell what polygons are holes in what other polygons, and this is
+obviously a useful thing to be able to indicate in environmental
+protection and management scenarios.
+
+The idea was originally noted here:
+<https://gist.github.com/mdsumner/7b354f73b47ccb67861ff0363cdbb3d3>
 
 ## Code of Conduct
 
