@@ -18,3 +18,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     sf
+URL: https://github.com/mdsumner/freegeomsf
+BugReports: https://github.com/mdsumner/freegeomsf/issues
